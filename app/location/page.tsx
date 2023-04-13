@@ -1,10 +1,10 @@
 import Navigation from "../Navigation";
 
-export default function Loading() {
+export default function Location() {
   return (
     <div className="flex">
       <Navigation />
-      <div className="w-full">Loading Component</div>
+      <div className="w-full">Location Component</div>
     </div>
   );
 }
