@@ -1,9 +1,14 @@
-import './globals.css'
+import "./globals.css";
+
+export const metadata = {
+  title: "Smart Hard Hat System",
+  description: "Web application for administrator usage",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -14,5 +19,5 @@ export default function RootLayout({
       <head />
       <body>{children}</body>
     </html>
-  )
+  );
 }
