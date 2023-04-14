@@ -7,7 +7,7 @@ function Navigation() {
   const routes = [
     { name: "Dashboard", path: "/dashboard" },
     { name: "Location", path: "/location" },
-    { name: "Timekeeping", path: "/timekeeping" },
+    { name: "Timekeeping", path: "/logs" },
     { name: "Workers", path: "/workers" },
   ]
 

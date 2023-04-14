@@ -1,4 +1,4 @@
-import Navigation from "../Navigation";
+import Navigation from "../components/Navigation"
 
 export default function Workers() {
   return (
@@ -6,5 +6,5 @@ export default function Workers() {
       <Navigation />
       <div className="w-full">Workers Component</div>
     </div>
-  );
+  )
 }

@@ -1,4 +1,4 @@
-export default function SubHeaderComponent() {
+export default function SubHeader() {
     return (
       <section className="flex flex-col justify-between lg:flex-row gap-4 mt-4 font-semibold">
         <div className="flex flex-col gap-2 bg-white border p-4 rounded-lg w-full">

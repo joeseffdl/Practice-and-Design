@@ -1,4 +1,4 @@
-import Navigation from "../Navigation";
+import {Navigation} from "../components"
 
 export default function Location() {
   return (
@@ -6,5 +6,5 @@ export default function Location() {
       <Navigation />
       <div className="w-full">Location Component</div>
     </div>
-  );
+  )
 }

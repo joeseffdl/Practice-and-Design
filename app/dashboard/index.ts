@@ -1,5 +1,3 @@
-import HeaderComponent from "./HeaderComponent";
-import MainContent from "./MainContent";
-import SubHeaderComponent from "./SubHeaderComponent";
+import MainContent from "./MainContent"
 
-export { HeaderComponent, SubHeaderComponent, MainContent }
+export { MainContent,}
