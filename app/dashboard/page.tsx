@@ -1,14 +1,15 @@
-import Navigation from "../Navigation"
-import { HeaderComponent, MainContent, SubHeaderComponent } from "./"
+import Navigation from "../components/Navigation"
+import { MainContent } from "./"
+import { Header, SubHeader } from "../components"
 
 export default function Dashboard() {
   return (
     <div className="flex">
       <Navigation />
       <main className="w-full">
-        <section className="bg-gray-200 p-8">
-          <HeaderComponent />
-          <SubHeaderComponent />
+        <section className="bg-slate-200 p-8">
+          <Header title="Dashboard" subtitle="Good Morning, User!" />
+          <SubHeader />
         </section>
         <section className="p-8 flex flex-col lg:flex-row gap-5">
           <MainContent />
