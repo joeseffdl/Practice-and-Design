@@ -15,9 +15,9 @@ export default function Logs() {
           </section>
           <div className="bg-slate-200 p-8 flex flex-col gap-2">
             <LogsSubHeader />
-            <div className="flex justify-between items-center">
-              <h2>Tasks</h2>
-              <h4>See All Tasks {">"}</h4>
+            <div className="flex justify-between items-center py-4 px-2">
+              <h2 className="font-semibold text-lg">Tasks</h2>
+              <h4 className="text-xs">See All Tasks {">"}</h4>
             </div>
             <ul className="flex flex-col gap-2">
               <ListItem />
@@ -27,7 +27,7 @@ export default function Logs() {
           </div>
         </section>
 
-        <section className="lg:w-1/4">2</section>
+        <section className="lg:w-1/4"></section>
       </div>
     </div>
   )
