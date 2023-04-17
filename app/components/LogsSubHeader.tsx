@@ -11,47 +11,51 @@ export default function LogsSubHeader() {
           </button>
         </div>
       </div>
-      <div className="lg:w-3/4 bg-white rounded-2xl flex justify-center gap-4 divide-x-2">
-        <div className="lg:w-3/5 flex flex-col justify-center py-4  gap-4">
+      <div className="lg:w-3/4 bg-white rounded-2xl flex flex-col lg:flex-row justify-center gap-4  divide-y-2 lg:divide-x-2">
+        <div className="lg:w-3/5 flex flex-col justify-center p-4 lg:py-4  gap-4">
           <h4>Project estimate</h4>
-          <div className="flex gap-2">
+          <div className="flex flex-col lg:flex-row gap-2">
             <div className="bg-black rounded-xl w-full drop-shadow-lg">
-              <div className="flex flex-col w-full items-center p-4 text-white">
+              <div className="flex flex-col w-full items-center h-full justify-center p-2 lg:p-4 text-white">
                 <h6 className="bg-white rounded-full w-5 h-5 border-2 shadow-red-500 shadow-inner"></h6>
-                <div className="font-thin ">Projects</div>
-                <div className="font-semibold">69</div>
+                <div className="font-thin text-sm lg:text-base">Projects</div>
+                <div className="font-semibold text-sm lg:text-base">69</div>
               </div>
             </div>
             <div className="bg-sky-500 rounded-xl w-full drop-shadow-lg">
-              <div className="flex flex-col w-full items-center p-4 text-white">
+              <div className="flex flex-col w-full items-center h-full justify-center p-2 lg:p-4 text-white">
                 <h6 className="bg-white rounded-full w-5 h-5 border-2 shadow-red-500 shadow-inner"></h6>
-                <div className="font-thin ">Assigned</div>
-                <div className="font-semibold">42</div>
+                <div className="font-thin text-sm lg:text-base">Assigned</div>
+                <div className="font-semibold text-sm lg:text-base">42</div>
               </div>
             </div>
             <div className="bg-white rounded-xl w-full drop-shadow-lg">
-              <div className="flex flex-col w-full items-center p-4 ">
+              <div className="flex flex-col w-full items-center h-full justify-center p-2 lg:p-4 ">
                 <h6 className="bg-white rounded-full w-5 h-5 border-2 shadow-red-500 shadow-inner"></h6>
-                <div className="font-thin ">Completed</div>
-                <div className="font-semibold">123</div>
+                <div className="font-thin text-sm lg:text-base">Completed</div>
+                <div className="font-semibold text-sm lg:text-base">123</div>
               </div>
             </div>
           </div>
-          <div className="flex justify-between items-center">
-            <p className="font-thin text-sm">On time completion rate:</p>
-            <h3 className="font-semibold text-lg">62 %</h3>
-            <h6 className="text-xs bg-indigo-500 py-1 px-2 text-white rounded-lg">
-              3.5%
-            </h6>
+          <div className="flex flex-col lg:flex-row justify-between items-center">
+            <p className="font-thin text-xs lg:text-sm">
+              On time completion rate:
+            </p>
+            <div className="flex gap-2">
+              <h3 className="font-semibold lg:text-lg text-base">62 %</h3>
+              <h6 className="lg:text-xs text-[10px] bg-indigo-500 py-1 px-2 text-white rounded-lg">
+                3.5%
+              </h6>
+            </div>
           </div>
         </div>
-        <div className="w-1/4 flex flex-col p-4 gap-4">
+        <div className="lg:w-1/4 flex flex-col justify-center items-center lg:items-start p-4 gap-4">
           <div className="flex items-center gap-2">
             <h6 className="bg-white rounded-full w-5 h-5 border-2 shadow-red-500 shadow-inner"></h6>
             <h4>Our team</h4>
           </div>
           <p className="font-thin text-xs">Team members</p>
-          <div className="relative w-5 h-5">
+          <div className="relative w-5 h-5 ">
             <h6 className="absolute bg-white rounded-full w-5 h-5 border-2 shadow-sky-500 shadow-inner"></h6>
             <h6 className="absolute left-3 bg-white rounded-full w-5 h-5 border-2 shadow-fuchsia-500 shadow-inner"></h6>
             <h6 className="absolute left-6 bg-white rounded-full w-5 h-5 border-2 shadow-emerald-500 shadow-inner"></h6>
@@ -66,5 +70,5 @@ export default function LogsSubHeader() {
         </div>
       </div>
     </section>
-  )
+  );
 }

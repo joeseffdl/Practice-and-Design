@@ -1,3 +1,4 @@
+import { Navigation } from "./components";
 import "./globals.css";
 
 export const metadata = {
@@ -17,7 +18,10 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body className="flex">
+        <Navigation />
+        {children}
+      </body>
     </html>
   );
 }

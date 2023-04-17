@@ -1,7 +1,7 @@
-"use client"
-import Link from "next/link"
-import { FcClock, FcHome, FcExport } from "react-icons/fc"
-import { GrMapLocation, GrTools } from "react-icons/gr"
+"use client";
+import Link from "next/link";
+import { FcClock, FcHome, FcExport } from "react-icons/fc";
+import { GrMapLocation, GrTools } from "react-icons/gr";
 
 function Navigation() {
   const routes = [
@@ -9,10 +9,10 @@ function Navigation() {
     { name: "Location", path: "/location" },
     { name: "Timekeeping", path: "/logs" },
     { name: "Workers", path: "/workers" },
-  ]
+  ];
 
   return (
-    <div className="flex flex-col gap-5 justify-between items-center w-96 pt-8 pb-2 min-h-screen shadow-lg">
+    <div className="flex flex-col gap-5 justify-between items-center w-fit pt-8 pb-2 min-h-screen shadow-lg">
       <ul className="w-full flex flex-col font-semibold">
         <Link
           href={routes[0].path}
@@ -50,7 +50,7 @@ function Navigation() {
         </li>
       </ul>
     </div>
-  )
+  );
 }
 
-export default Navigation
+export default Navigation;
