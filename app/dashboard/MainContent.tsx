@@ -1,4 +1,4 @@
-import MainCard from "./MainCard"
+import MainCard from "./MainCard";
 
 export default function MainContent() {
   return (
@@ -27,7 +27,9 @@ export default function MainContent() {
                 tasks created vs tasks completed
               </p>
               <div>
-                <div className="min-h-20 h-36 border-2 flex items-center justify-center">Graph</div>
+                <div className="min-h-20 h-36 border-2 flex items-center justify-center">
+                  Graph
+                </div>
                 <div className="flex items-center gap-5">
                   <p className="text-sm font-semibold">created</p>
                   <p className="text-sm font-semibold">completed</p>
@@ -112,5 +114,5 @@ export default function MainContent() {
         </div>
       </section>
     </>
-  )
+  );
 }
