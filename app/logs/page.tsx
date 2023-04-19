@@ -25,7 +25,9 @@ export default function Logs() {
         </div>
       </section>
 
-      <section className="hidden xl:w-1/4"></section>
+      <section className="hidden xl:flex items-center justify-center p-5 w-1/4">
+        Another Component
+      </section>
     </div>
   );
 }

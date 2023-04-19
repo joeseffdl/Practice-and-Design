@@ -43,7 +43,7 @@ export default function LogsSubHeader() {
             </p>
             <div className="flex gap-2">
               <h3 className="font-semibold xl:text-lg text-base">62 %</h3>
-              <h6 className="xl:text-xs text-[10px] bg-indigo-500 py-1 px-2 text-white rounded-lg">
+              <h6 className="flex items-center justify-center xl:text-xs text-[10px] bg-indigo-500 py-1 px-2 text-white rounded-lg">
                 3.5%
               </h6>
             </div>
