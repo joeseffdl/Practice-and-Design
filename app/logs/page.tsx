@@ -3,8 +3,8 @@ import { ListItem } from "./";
 
 export default function Logs() {
   return (
-    <div className="w-full flex flex-col lg:flex-row">
-      <section className="lg:w-3/4">
+    <div className="w-full flex flex-col xl:flex-row">
+      <section className="xl:w-3/4">
         <section className="p-8 ">
           <Header
             title="Timekeeping"
@@ -25,7 +25,9 @@ export default function Logs() {
         </div>
       </section>
 
-      <section className="hidden lg:w-1/4"></section>
+      <section className="hidden xl:flex items-center justify-center p-5 w-1/4">
+        Another Component
+      </section>
     </div>
   );
 }

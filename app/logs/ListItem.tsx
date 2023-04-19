@@ -12,9 +12,9 @@ export default function ListItem() {
         <div className="font-semibold text-center lg:text-left">
           Search Inspiration for Project
         </div>
-        <div className="flex gap-2">
-          <div className="text-xs font-thin">www.dribbble.com</div>
-          <div className="text-xs font-thin">6 comments</div>
+        <div className="flex gap-2 text-center lg:text-left">
+          <div className="text-xs font-thin w-full">www.dribbble.com</div>
+          <div className="text-xs font-thin w-full">6 comments</div>
         </div>
       </div>
       <div className="flex flex-col justify-center h-full gap-2 lg:w-2/6">
