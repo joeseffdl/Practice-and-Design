@@ -25,8 +25,9 @@ export default function Logs() {
         </div>
       </section>
 
-      <section className="hidden xl:flex items-center justify-center p-5 w-1/4">
-        Another Component
+      <section className="hidden divide-y gap-2 xl:flex flex-col items-center  p-5 w-1/4">
+        <div className="w-full h-full flex items-center justify-center">Some preview</div>
+        <div className="w-full h-full flex items-center justify-center">Another preview</div>
       </section>
     </div>
   );
