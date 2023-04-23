@@ -1,4 +1,4 @@
-import MainCard from "./MainCard";
+import MainCard from "./MainCard"
 
 export default function MainContent() {
   return (
@@ -114,5 +114,5 @@ export default function MainContent() {
         </div>
       </section>
     </>
-  );
+  )
 }

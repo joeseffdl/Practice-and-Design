@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FaHardHat } from "react-icons/fa";
 
 function LoginComponent() {
-  const routes = [{ name: "Home", path: "/home" }];
+  const routes = [{ name: "Dashboard", path: "/" }];
 
   return (
     <div className="rounded-2xl bg-gray-500 shadow-2xl w-96 h-96">

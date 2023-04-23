@@ -5,7 +5,7 @@ import { GrMapLocation, GrTools } from "react-icons/gr";
 
 function Navigation() {
   const routes = [
-    { name: "Dashboard", path: "/dashboard" },
+    { name: "Dashboard", path: "/" },
     { name: "Location", path: "/location" },
     { name: "Timekeeping", path: "/logs" },
     { name: "Workers", path: "/workers" },
