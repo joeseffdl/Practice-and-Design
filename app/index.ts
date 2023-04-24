@@ -1,3 +1,3 @@
-import LoginComponent from "./LoginComponent";
+import MainContent from "./MainContent"
 
-export { LoginComponent };
+export { MainContent }
