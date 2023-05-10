@@ -23,13 +23,9 @@ export default function MainContent() {
           <div className="lg:w-3/5">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl font-semibold">Statistics</h2>
-              <p className="text-sm text-slate-500">
-                tasks created vs tasks completed
-              </p>
+              <p className="text-sm text-slate-500">tasks created vs tasks completed</p>
               <div>
-                <div className="min-h-20 h-36 border-2 flex items-center justify-center">
-                  Graph
-                </div>
+                <div className="min-h-20 h-36 border-2 flex items-center justify-center">Graph</div>
                 <div className="flex items-center gap-5">
                   <p className="text-sm font-semibold">created</p>
                   <p className="text-sm font-semibold">completed</p>
@@ -52,12 +48,8 @@ export default function MainContent() {
                 <div className="text-xs">completed</div>
               </div>
               <div>
-                <p className="text-sm font-semibold text-center">
-                  You're doing good!
-                </p>
-                <p className="text-sm text-slate-500 text-center">
-                  You almost reached your goal.
-                </p>
+                <p className="text-sm font-semibold text-center">You're doing good!</p>
+                <p className="text-sm text-slate-500 text-center">You almost reached your goal.</p>
               </div>
             </div>
           </div>
